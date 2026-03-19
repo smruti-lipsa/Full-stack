@@ -1,11 +1,9 @@
-/* Basic reset to remove default browser margins */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling the main body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f7f6;
@@ -14,7 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Header styling */
 header {
     background-color: #0056b3;
     color: white;
@@ -27,7 +24,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Main content styling */
 main {
     background-color: white;
     padding: 40px;
@@ -35,10 +31,8 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 0 auto;
-    /* Centers the content */
 }
 
-/* Section styling */
 section {
     margin-bottom: 30px;
 }
@@ -50,7 +44,6 @@ section h2 {
     margin-bottom: 15px;
 }
 
-/* Form and Input styling */
 form {
     display: flex;
     gap: 10px;
@@ -80,13 +73,11 @@ button:hover {
     background-color: #218838;
 }
 
-/* List styling */
 ul {
     list-style-type: square;
     margin-left: 20px;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     margin-top: 30px;
