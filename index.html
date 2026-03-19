@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCBI Access Webtool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Bioinformatics Portal</h1>
+        <p>Your quick access portal to the National Center for Biotechnology Information (NCBI).</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Search NCBI Databases</h2>
+            <p>Enter a gene, protein, or keyword to search across all NCBI databases directly from this tool.</p>
+
+            <form action="https://www.ncbi.nlm.nih.gov/search/all/" method="GET" target="_blank">
+                <input type="text" name="term" placeholder="e.g., BRCA1, COVID-19..." required>
+                <button type="submit">Search NCBI</button>
+            </form>
+        </section>
+
+        <section class="info-section">
+            <h2>Why use NCBI?</h2>
+            <ul>
+                <li>Access vast databases of nucleotide and protein sequences.</li>
+                <li>Find biomedical literature via PubMed.</li>
+                <li>Analyze biological data for research and diagnostics.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created for an academic assignment. Powered by HTML & CSS.</p>
+    </footer>
+
+</body>
+
+</html>
